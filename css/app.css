@@ -41,4 +41,10 @@ body{
     box-shadow: 0 0 30px #2f84e1;
     filter: drop-shadow(3px 1px 10px #2f84e1);    
 }
-.icon{}
+.icon{
+    font-size: 22px;
+    transition: all 0.4s ease;    
+}
+.container input:checked + label i {
+    color: #fff;
+}
